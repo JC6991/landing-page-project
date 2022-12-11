@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+          Welcome  
+        </h1>
+
+        <nav>
+            <a href="./about-us">About Us</a>
+            <a href="./our-services">Our Services</a>
+            <a href="#contactForm">Contact Us</a>
+        </nav>
+    </header>
+    <main id="mainMargin">
+        <section class="sectionMain">
+            <h2 id="articleHeading">
+                All about Web Development
+            </h1>
+            <figure>
+                <img id="laptopCode" src="./assets/images/laptop.jfif" alt="A laptop with coding on the screen">            
+            </figure>        
+        </section>
+
+        <article class="widthMain">
+            <section class="dimensionsArticle" id="htmlPos">
+                <h3 class="articleSubHeading"> 
+                    HTML
+                </h3>
+                <p>
+                    HTML stands for Hyper Text Markup Language and is the standard markup language for creating Web pages. 
+                    HTML describes the structure of a Web page AND consists of a series of elements.
+                    HTML elements tell the browser how to display the content and label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+                </p>
+            </section> 
+            <section class="dimensionsArticle" id="cssPos">
+                <h3 class="articleSubHeading">
+                    CSS
+                </h3>
+                <p>
+                    CSS stands for Cascading Style h3eets and it describes how HTML elements are to be displayed on screen, paper, or in other media.
+                    CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+                    External stylesheets are stored in CSS files.
+                </p>
+            </section>
+            <section class="dimensionsArticle" id="jsPos">          
+                <h3 class="articleSubHeading">
+                    JavaScript
+                </h3>
+                <p>
+                    JavaScript is the world's most popular programming language.
+                    JavaScript is the programming language of the Web.
+                </p>
+            </section>       
+         </article>
+    </main>
+
+    <aside>
+        <section id="dimensionsAside">
+            <h3 id="asideHeading">
+                GIT
+            </h3>
+            <p>
+                Git is a version control tool (software) to track the changes in the source code. GitHub is a web-based cloud service to host your source code(Git repositories). It is a centralized system. Git doesn't require GitHub but GitHub requires Git.
+            </p>
+        </section>
+
+        <figure>
+            <img id="git-cheat" src="./assets/images/git-cheat.png" alt="List of git commands">            
+        </figure>
+    </aside>
+
+    <section id="contactForm">
+        <h4 id="sendMessage">
+            Send us a message
+        </h4>
+
+        <p style="color: darkslategray;">
+            Please complete the form below and we will contact you with more information.
+        </p>
+
+        <form action="./user-entry.php" method="get">
+            <section id="formBox1">
+                <label for="fName">First Name:</label><br>
+                <input type="text" id="fName" name="fName" placeholder="Enter Your First Name"><br>
+            </section>
+            <section id="formBox2">
+                <label for="lName">Last Name:</label><br>
+                <input type="text" id=lName" name="lName" placeholder="Enter Your Last Name"><br>
+            </section>        
+            <section id="formBox3">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>          
+            </section>    
+            <section id="formBox4">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" placeholder="Enter Your Phone Number"><br><br>
+            </section>    
+            <input type="submit" value="Send">
+
+          </form>
+
+    </section>
+
+    <footer>
+        <h5>
+            Thanks for visiting!
+        </h5>
+    </footer>
+
+
+
+
+</body>
+
+
+</html>

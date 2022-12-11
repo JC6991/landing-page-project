@@ -1,0 +1,199 @@
+/* Defines background colour, padding and margin of the body */
+body{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Applies single font and font family to all elements */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Fixes Header to top of the pagewith text aligned on the left  */
+header{
+    position: fixed top;
+    text-align:left;    
+}
+
+/* Fixes footer to the bootom and centre aligns text */
+footer{
+    position: fixed bottom;
+    text-align:center;
+}
+
+/* Applies styles to header and footer  */
+header, footer{
+    width: 100%;
+    padding: 25px;
+    border: solid 10px darkslategray /*rgba(47, 79, 79, 0.6)*/ ;
+    background-color: darkslategray /*rgba(47, 79, 79, 0.6)*/ ;
+    color:ivory;
+}
+
+/* Positions nav links */
+nav{
+    margin-right: 20px;
+    float: right;
+    }
+
+
+a {
+    display: inline-block;
+    margin-left: 25px;
+    color: ivory;
+}
+
+/* Sets margin of full main section */
+#mainMargin{
+    margin-left: 60px;
+}
+
+/* Sets of h2 and laptop image */
+.sectionMain{
+    width: 75%;    
+    text-align: left;
+}
+
+#laptopCode{
+    position: relative;
+    left: 90px;
+    width: 966px;
+    height: 600px;
+}
+
+/* Styles elements within the article section */
+widthMain{
+    max-width: 75%;
+}
+
+.dimensionsArticle{
+    height: 300px;
+    width: 15%;
+    background-color: rgba(47, 79, 79, 0.5);
+    color: ivory;
+    padding: 20px;
+    margin: 5px;
+    border: solid 10px darkslategray;
+
+}
+
+#articleHeading{
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+    color: darkslategray;
+    padding: 25px;
+    margin: 0px;
+} 
+
+.articleSubHeading{
+    color: maroon; 
+}
+
+#htmlPos{
+    position: relative;
+    left: 100px;
+}
+#cssPos{
+    position: relative;
+    left: calc(15% + 165px);    
+    top: -365px;
+}
+
+#jsPos{
+    position: relative;
+    left: calc(30% + 230px);    
+    top: -730px;
+}
+
+/* Styles aside section */
+#asideHeading{
+    color: mediumvioletred;
+}
+
+#dimensionsAside{
+    height: 1000px;
+    width: 400px;
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+    background-color: rgba(31, 148, 148, 0.5);
+    color: ivory;
+    padding: 20px;
+    margin: 5px;
+    border: solid 10px  rgba(31, 148, 148, 0.5);
+}
+
+#git-cheat{
+    position: absolute;
+    top: 520px;
+    left: 1335px;
+}
+
+/* Styles the form section */
+#sendMessage{
+    font-size: 60px;
+    color: darkslategray;
+}
+
+#contactForm {
+    padding: 25px;
+    border: solid 10px antiquewhite;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}   
+
+input[type=text], input[type=tel]{
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+        
+}
+
+/* Attempted to align the input fields so it was
+    1   2
+    3   4
+
+    Input boxes 1 and 3 were not clickacble in this format, I am not sure why
+*/
+
+/* #formBox1{
+    position: relative;
+    left: -250px;
+    top: 48px;
+}
+
+#formBox2{
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+
+#formBox3{
+    position: relative;
+    left: -250px;
+}
+
+#formBox4{
+    position: relative;
+    left: 250px;
+    top: -98px;
+} */
+
+input[type=submit]{
+    position: relative;
+    /* top: -80px; */
+    width: 200px;
+    height: 80px;
+    font-size: 45px;
+    background-color: darkslategray;
+    color: ivory;
+}
+
+/* footer heading size */
+h5 {
+    font-size: 50px;
+        
+}
